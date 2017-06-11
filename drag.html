@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+</head>
+<script src="d.js"></script>
+<body>
+<p  id = 'drag' draggable = 'true' ondragstart = 'return dragstart(event)'>请将我拖走</p>
+<p draggable = 'false'>我是拖不走的</p>
+<div style="background-color: red;width: 200px;height: 200px" id = 'ele' ondragenter = 'return dragenter(event)' ondragover = 'return dragover(event)' ondrop = 'return drop(event)'>请拖至此</div>
+</body>
+</html>
